@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Skyline</string>
+    <string name="skyline_title">Skyline</string>
+    <string name="skyline_config_name">Skyline Configuration</string>
+</resources>

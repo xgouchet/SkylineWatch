@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="time_text_size">40dp</dimen>
+    <dimen name="time_text_size_round">44dp</dimen>
+
+    <dimen name="date_text_size">18dp</dimen>
+    <dimen name="date_text_size_round">20dp</dimen>
+
+    <dimen name="time_x_offset">16dp</dimen>
+    <dimen name="time_x_offset_round">32dp</dimen>
+    <dimen name="time_y_offset">96dp</dimen>
+
+    <dimen name="date_x_offset">16dp</dimen>
+    <dimen name="date_x_offset_round">24dp</dimen>
+    <dimen name="date_y_offset">128dp</dimen>
+
+</resources>

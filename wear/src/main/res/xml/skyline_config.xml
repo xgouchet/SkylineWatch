@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<Preference android:title="Screens" android:key="screens_dummy"/>-->
+
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_eye"
+        android:title="Display">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="display_am_pm"
+            android:summaryOff="16:23"
+            android:summaryOn="04:23 pm"
+            android:title="Hour Format"
+            app:wear_iconOn="@drawable/ic_switch_on"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="display_seconds"
+            android:summaryOff="04:08"
+            android:summaryOn="04:08:15"
+            app:wear_iconOn="@drawable/ic_switch_on"
+            android:title="Display seconds"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            app:wear_iconOn="@drawable/ic_switch_on"
+            android:key="display_date"
+            android:title="Display date"/>
+    </PreferenceScreen>
+
+
+</PreferenceScreen>

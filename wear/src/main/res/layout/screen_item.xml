@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_height="52dp"
+        android:layout_width="match_parent"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:alpha="0.6"
+        android:scaleType="fitEnd"
+        tools:src="@drawable/sl_miami"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center_vertical"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/digital_text"
+        android:singleLine="true"
+        android:lines="1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:alpha="0.6"
+        android:textSize="18sp"
+        tools:text="Hello world"
+        />
+</merge>
